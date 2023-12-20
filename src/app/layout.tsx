@@ -10,7 +10,10 @@ const sourceSans3 = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: 'TaskFlow',
+  title: {
+    default: 'TaskFlow',
+    template: '%s | TaskFlow',
+  },
   description:
     'TaskFlow is a task management application based on the Kanban method, developed to optimize your daily tasks.',
 }
